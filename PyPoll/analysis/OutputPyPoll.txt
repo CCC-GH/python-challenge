@@ -1,0 +1,12 @@
+
+Election Results 
+---------------------------- 
+Total Votes: 1 
+---------------------------- 
+Candidate 1 
+Candidate 2 
+Candidate 3 
+Candidate 4 
+---------------------------- 
+Winner: winner 
+---------------------------- 
