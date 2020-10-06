@@ -11,6 +11,7 @@ csv File input within repository:
 Text File output within repository: 
 		- Write results to report file, OutputPyPoll.txt, and when finished, print report file to terminal.
 
+--------------------------
 ## Python-challenge/PyPoll
 - Posted within PyPoll Folder is the PyPoll Python script.
 - Execute one time and it will pass thru stored voting records
