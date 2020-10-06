@@ -5,7 +5,7 @@ python-challenge/PyPoll
 """
 rowCount = 0
 import csv
-with open(r'C:\Users\coffm\CarlNU\python-challenge\PyPoll\Resources\03-Python_HW_Instructions_PyPoll_Resources_election_data.csv') as csvfile:
+with open(r'\Users\coffm\CarlNU\python-challenge\PyPoll\Resources\03-Python_HW_Instructions_PyPoll_Resources_election_data.csv') as csvfile:
     csvreader = csv.reader(csvfile)
     next(csvreader)
     for row in csvreader:
@@ -26,38 +26,36 @@ with open(r'C:\Users\coffm\CarlNU\python-challenge\PyPoll\Resources\03-Python_HW
     outFile = open(r'C:\Users\coffm\CarlNU\python-challenge\PyPoll\analysis\OutputPyPoll.txt','r')
     print(outFile.read())
    
-    
-candidateList = []   
+print([i+1 for i in range(100)])
+
+
 import csv
-with open(r'C:\Users\coffm\CarlNU\python-challenge\PyPoll\Resources\03-Python_HW_Instructions_PyPoll_Resources_election_data.csv') as csvfile:
+candidateList = [] 
+totalVotes = 0
+voteCount = 0
+winner = "carl"
+with open(r'\Users\coffm\CarlNU\python-challenge\PyPoll\Resources\03-Python_HW_Instructions_PyPoll_Resources_election_data.csv') as csvfile:
     csvreader = csv.reader(csvfile)
     next(csvreader)
-    for row in csvreader:
-        rowCount = rowCount + 1   
+    for row in csvreader:      
+        totalVotes = totalVotes + 1   
         if row[2] not in candidateList:
             candidateList.append(row[2])
-    for candidate in set(candidateList):
+    for candidate in candidateList:
         print(candidate)
-        print(rowCount)
-        print(candidateList.count(candidate))        
-        
-        
-        next(csvreader)
-        
-        for row in csvreader:
-            if rowCount == 0:
-                rowCount = rowCount + 1  
-            if row[2] = candidate[0]
+        for row2 in csvreader:
+            print(row2[2])
+            print(candidate)
+            if candidate == row2[2]:
+                voteCount = voteCount + 1
+                if voteCount > winnerCount:
+                    winner = candidate
+        print(candidate + " " + str(voteCount))
+        voteCount = 0   
+    print(winner)        
             
+             
             
-        votes = candidateList.count(candidate)
-        
-        
-        row in csvreader:  
-        
-        print(str(votes))
-        print(str(round(votes/rowCount*100,3)))
-        
  
         if maxVoteCount > voteCount:
             winner = candidate
