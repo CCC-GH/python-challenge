@@ -4,7 +4,7 @@
 - Posted below, at bottom, is a Python script.
 - Execute one time and it will pass thru stored monthly profit records generating a well-formatted, summarized report within the PyBank "analysis" folder called "OutputPyBank.txt"
 - This script will scan rows for a: count of months, total profit/loss, average, greatest increase/decrease profit/loss change from previous month.
-
+- Also within "analysis" folder, is an Excel analysis of data, confirming results from Python script.
 
 #### Text File input within repository: 
 python-challenge\PyBank\Resources\03-Python_HW_Instructions_PyBank_Resources_budget_data
@@ -14,10 +14,9 @@ python-challenge\PyBank\analysis\OutputPyBank.txt
 
 """
 03-Python-HW
-python-challenge/PyBank 
+python-challenge/PyBank
 
-s script will scan rows for a: count of months, total profit/loss, average, greatest increase/decrease profit/loss from profit/loss from previous month.
-
+This script will scan rows for a: count of months, total profit/loss, average, greatest increase/decrease profit/loss from profit/loss from previous month.
 """
 # Initialize Counts
 netTotal = 0
