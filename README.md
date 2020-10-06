@@ -1,4 +1,4 @@
-### This Repository is for 03-Python Homework
+# This Repository is for 03-Python Homework
 
 ## Python-challenge/PyBank
 - Posted within PyBank Folder is the PyBank Python script.
