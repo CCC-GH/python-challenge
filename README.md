@@ -1,15 +1,24 @@
 ### This Repository is for 03-Python Homework
 
 #### Fully automated report generation:
+python-challenge/PyBank 
 - Posted below, at bottom, is a Python script.
 - Execute one time and it will pass thru stored monthly profit records generating a well-formatted, summarized report within the PyBank "analysis" folder called "OutputPyBank.txt"
 - This script will scan rows for a: count of months, total profit/loss, average, greatest increase/decrease profit/loss change from previous month.
+- Write results to report file, OutputPyPoll.txt, and when finished, print report file to terminal.
 - Also within "analysis" folder, is an Excel analysis of data, confirming results from Python script.
+
+python-challenge/PyPoll 
+- Posted below, at bottom, is a Python script.
+- This Python script will scan rows for candidates total votes, candidates' votes and their %-of-total, and the candidate winner of the election.
+- Write results to report file, OutputPyPoll.txt, and when finished, print report file to terminal.
 
 #### Text File input within repository: 
 python-challenge\PyBank\Resources\03-Python_HW_Instructions_PyBank_Resources_budget_data
 
 #### Text File output within repository: 
+Write results to report file, OutputPyPoll.txt, and when finished, print report file to terminal.
+
 python-challenge\PyBank\analysis\OutputPyBank.txt
 
 """
